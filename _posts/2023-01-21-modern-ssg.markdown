@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Why Static Site Generators still make sense"
+title: "Why Static Site Generators Still Make Sense"
 date: 2023-01-21 07:35:33 -0500
 comments: true
 ---

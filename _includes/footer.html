@@ -1,11 +1,8 @@
 <footer class="footer">
   <div class="content has-text-centered">
     <p>
-      <strong>{{ site.title }}</strong> by {% if site.homepage %}<a
-        href="{{site.homepage}}"
-      >
-        {% endif %} {{site.author}} {% if site.homepage %} </a
-      >{% endif %}
+      © {{ 'now' | date: "%Y" }} <strong>{{ site.title }}</strong> by
+      {{site.author}}.
     </p>
   </div>
   <div class="content has-text-centered">{% include social.html %}</div>
