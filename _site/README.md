@@ -6,7 +6,7 @@ A simple, clean, responsive Jekyll theme for a blog or personal website.
 
 ## Features
 
-Search, comments, pagination, and more. See the [demo](https://leabs.github.io/jekyll-leabs-theme/) for a live look around.
+Search, comments, pagination, and more. See the [demo](https://jekyll-theme.vercel.app/) for a live look around.
 
 ## Installation
 
