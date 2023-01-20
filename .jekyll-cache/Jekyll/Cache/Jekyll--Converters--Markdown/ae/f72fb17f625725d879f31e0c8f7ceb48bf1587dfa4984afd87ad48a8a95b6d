@@ -1,0 +1,27 @@
+I"İ<p>Add the <code class="language-plaintext highlighter-rouge">number</code> property of <code class="language-plaintext highlighter-rouge">array1</code> and <code class="language-plaintext highlighter-rouge">array2</code> where the <code class="language-plaintext highlighter-rouge">id</code> matches and declare as <code class="language-plaintext highlighter-rouge">array3</code></p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">let</span> <span class="nx">array1</span> <span class="o">=</span> <span class="p">[</span>
+  <span class="p">{</span> <span class="na">id</span><span class="p">:</span> <span class="mi">1</span><span class="p">,</span> <span class="na">number</span><span class="p">:</span> <span class="mi">3</span> <span class="p">},</span>
+  <span class="p">{</span> <span class="na">id</span><span class="p">:</span> <span class="mi">3</span><span class="p">,</span> <span class="na">number</span><span class="p">:</span> <span class="mi">4</span> <span class="p">},</span>
+  <span class="p">{</span> <span class="na">id</span><span class="p">:</span> <span class="mi">2</span><span class="p">,</span> <span class="na">number</span><span class="p">:</span> <span class="mi">4</span> <span class="p">},</span>
+<span class="p">];</span>
+<span class="kd">let</span> <span class="nx">array2</span> <span class="o">=</span> <span class="p">[</span>
+  <span class="p">{</span> <span class="na">id</span><span class="p">:</span> <span class="mi">1</span><span class="p">,</span> <span class="na">number</span><span class="p">:</span> <span class="mi">3</span> <span class="p">},</span>
+  <span class="p">{</span> <span class="na">id</span><span class="p">:</span> <span class="mi">2</span><span class="p">,</span> <span class="na">number</span><span class="p">:</span> <span class="mi">5</span> <span class="p">},</span>
+  <span class="p">{</span> <span class="na">id</span><span class="p">:</span> <span class="mi">3</span><span class="p">,</span> <span class="na">number</span><span class="p">:</span> <span class="mi">3</span> <span class="p">},</span>
+<span class="p">];</span>
+<span class="kd">let</span> <span class="nx">array3</span> <span class="o">=</span> <span class="p">[];</span>
+
+<span class="k">for</span> <span class="p">(</span><span class="kd">let</span> <span class="nx">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="nx">i</span> <span class="o">&lt;</span> <span class="nx">array2</span><span class="p">.</span><span class="nx">length</span><span class="p">;</span> <span class="nx">i</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
+  <span class="k">for</span> <span class="p">(</span><span class="kd">let</span> <span class="nx">j</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="nx">j</span> <span class="o">&lt;</span> <span class="nx">array1</span><span class="p">.</span><span class="nx">length</span><span class="p">;</span> <span class="nx">j</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">if</span> <span class="p">(</span><span class="nx">array2</span><span class="p">[</span><span class="nx">i</span><span class="p">].</span><span class="nx">id</span> <span class="o">===</span> <span class="nx">array1</span><span class="p">[</span><span class="nx">j</span><span class="p">].</span><span class="nx">id</span><span class="p">)</span> <span class="p">{</span>
+      <span class="nx">array3</span><span class="p">.</span><span class="nx">push</span><span class="p">({</span>
+        <span class="na">id</span><span class="p">:</span> <span class="nx">array2</span><span class="p">[</span><span class="nx">i</span><span class="p">].</span><span class="nx">id</span><span class="p">,</span>
+        <span class="na">number</span><span class="p">:</span> <span class="nx">array1</span><span class="p">[</span><span class="nx">j</span><span class="p">].</span><span class="nx">number</span> <span class="o">+</span> <span class="nx">array2</span><span class="p">[</span><span class="nx">i</span><span class="p">].</span><span class="nx">number</span><span class="p">,</span>
+      <span class="p">});</span>
+    <span class="p">}</span>
+  <span class="p">}</span>
+<span class="p">}</span>
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">array3</span><span class="p">);</span>
+</code></pre></div></div>
+:ET

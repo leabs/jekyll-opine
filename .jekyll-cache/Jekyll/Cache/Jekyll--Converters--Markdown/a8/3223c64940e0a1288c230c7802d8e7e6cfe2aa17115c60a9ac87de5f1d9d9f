@@ -1,0 +1,13 @@
+I"â<p>Welcome to Bright, Clean &amp; Simple - a modern and professional Jekyll theme. Designed to be lightweight and easy to use, this theme is perfect for creating a clean and polished website. With a focus on simplicity and ease of navigation, your visitors will have a seamless experience browsing your site. Built using the Jekyll static site generator framework, this theme is fast and efficient, ensuring your site will load quickly for your visitors. Whether youâ€™re creating a personal blog, portfolio, or swomething else, Bright, Clean &amp; Simple has everything you need to make a great impression online.</p>
+
+<h2 id="features">Features</h2>
+
+<ul>
+  <li>Built a static site generator framework that makes fast and efficient websites via <a href="https://jekyllrb.com/">Jekyll</a></li>
+  <li>Search built in via <a href="https://github.com/christian-fei/Simple-Jekyll-Search">Simple-Jekyll-Search</a></li>
+  <li>Comment support via <a href="https://disqus.com/">Disqus</a></li>
+  <li>Styling with <a href="https://bulma.io/">Bulma</a></li>
+  <li>Support with SEO from <a href="https://github.com/jekyll/jekyll-seo-tag">jekyll-seo-tag</a></li>
+  <li>RSS support with <a href="https://github.com/jekyll/jekyll-feed">jekyll-feed</a></li>
+</ul>
+:ET

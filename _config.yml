@@ -1,0 +1,51 @@
+# Site config
+title: Site Title
+description: >- # this means to ignore newlines until "baseurl:"
+  Site description here!
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+
+# Social
+github-username: leabs
+twitter-username: shadow_stack
+youtube-username: shadowstack
+linkedin-username: stevenleabo
+
+# Post Paths
+permalink: /blog/:categories/:year/:month/:day/:title:output_ext
+paginate_path: "/blog/page:num/"
+
+# Pagination (Posts shown before page 2)
+paginate: 8
+
+# Author info
+author: Bob
+# Have a website? It will link in the footer
+homepage:
+
+# Syntax highlighting
+markdown: kramdown
+kramdown:
+  syntax_highlighter: rouge
+  input: GFM
+  auto_ids: true
+  hard_wrap: false
+
+# Allow future posts if set to true
+future: true
+
+#Jekyll Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-seo-tag
+
+# SEO
+twitter:
+  username: shadow_stack
+  card: summary
+
+# disqus comments
+
+disqus:
+  shortname:
