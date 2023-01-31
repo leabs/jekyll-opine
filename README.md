@@ -10,6 +10,8 @@ A simple, clean, responsive Jekyll theme for a blog or personal website with bui
 2. Edit `_config.yml` to personalize your site.
 3. Replace `favicon.ico` with your own.
 4. Replace `assets/images/avatar.png` with your own.
+5. `cd` into your fork's directory and run `bundle install`
+6. Run `bundle exec jekyll serve` and open your browser at `http://localhost:4000`
 
 ## Adding Posts
 
