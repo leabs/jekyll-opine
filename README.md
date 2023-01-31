@@ -4,6 +4,10 @@
 
 A simple, clean, responsive Jekyll theme for a blog or personal website with built in search, commenting, and more. See the [demo](https://leabs.github.io/jekyll-leabs-theme/) for a live look around.
 
+[![Watch the video](https://youtu.be/4NWQb9d2yVg/hqdefault.
+jpg)]
+(https://youtu.be/4NWQb9d2yVg)  
+
 ## Installation
 
 1. Fork the repository
@@ -53,7 +57,3 @@ exclude: true
 ```
 
 The index page is set to `exclude: true` by default as it is hard coded into the navigation.
-
-```
-
-```
