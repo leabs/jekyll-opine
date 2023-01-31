@@ -1,11 +1,11 @@
 [
   
     {
-      "title"    : "Why Static Site Generators Still Make Sense",
+      "title"    : "Why Static Site Generators still make sense",
       "category" : "",
       "tags"     : "",
       "url"      : "/blog/2023/01/21/modern-ssg.html",
-      "date"     : "01/21/23 "
+      "date"     : "Jan 21, 2023"
     } ,
   
     {
@@ -13,7 +13,7 @@
       "category" : "",
       "tags"     : "",
       "url"      : "/blog/2023/01/20/codeblock-example.html",
-      "date"     : "01/20/23 "
+      "date"     : "Jan 20, 2023"
     } ,
   
     {
@@ -21,7 +21,7 @@
       "category" : "",
       "tags"     : "",
       "url"      : "/blog/2023/01/19/welcome-to-jekyll.html",
-      "date"     : "01/19/23 "
+      "date"     : "Jan 19, 2023"
     } 
   
 ]

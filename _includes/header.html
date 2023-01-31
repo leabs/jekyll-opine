@@ -14,10 +14,14 @@
       <div class="hero-body" style="text-align: center">
         <div class="">
           <h1 class="title">
-            {% if page.url == "/" %} {{ site.title }} {% else %} {{page.title}}
+            {% if page.url == "/" %} 
+            {{ site.title }} 
+            {% else %} 
+            {{page.title}}
             {% endif %}
           </h1>
           <h2 class="subtitle">{{page.subtitle}}</h2>
+          {% unless page.url == "/" %}
           <p class="post-meta" style="color: #fff">
             {%- assign date_format = site.minima.date_format | default: "%b %-d,
             %Y" -%}
@@ -37,19 +41,9 @@
             >
               {{ mdate | date: date_format }}
             </time>
-            {%- endif -%} {%- if page.author -%} • {% for author in page.author
-            %}
-            <span
-              itemprop="author"
-              itemscope
-              itemtype="http://schema.org/Person"
-            >
-              <span class="p-author h-card" itemprop="name"
-                >{{ author }}</span
-              ></span
-            >
-            {%- if forloop.last == false %}, {% endif -%} {% endfor %} {%- endif
-            -%}
+  
+            {%- endif-%}
+            {% endunless %}
           </p>
         </div>
       </div>

@@ -25,20 +25,8 @@
 .social-container a:last-child {
   margin-right: 0;
 }
-#search-input {
-  width: 100%;
-  padding: 4px;
-  display: block;
-  margin-bottom: 0;
-  padding: 4px;
-}
 #results-container {
-  margin-left: 0 !important;
-  width: 100%;
-  padding: 4px;
-  margin: 8px;
-  margin-top: 0;
-  margin-bottom: 12px;
+  margin-left: 0;
 }
 .hero-body h1.title {
   margin-bottom: 0;
@@ -85,23 +73,22 @@ code {
   padding-right: 15px;
   padding-left: 15px;
 }
-.content h2.post-title {
-  font-size: 1.5rem;
-  font-weight: 700;
-  line-height: 1.2;
-  margin-bottom: 0.25rem !important;
-}
-p.post-meta {
+.post-meta {
   color: slategrey;
-  margin-bottom: 1rem !important;
+  padding-bottom: 12px;
 }
-
 main {
   padding-top: 20px;
 }
 #navbarBasicExample > div > a.navbar-item.is-active {
   background-color: #f5f5f5;
 }
-.has-text-center {
-  text-align: center;
+.author-meta{
+  margin-bottom:12px;
+  display: flex;
+  align-items: center;
+  align-content: center;
+}
+.author-meta img{
+  margin-right:12px;
 }

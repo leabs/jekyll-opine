@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Comment Policy
+title: Example Comment Policy
 subtitle: More about our comment policy
 permalink: /comment-policy/
 comments: false

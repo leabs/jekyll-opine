@@ -4,7 +4,7 @@
     {%- assign titles_size = site.pages | map: 'title' | join: '' | size -%}
     <div class="container" style="max-width: 900px">
         <div class="navbar-brand">
-            <a class="navbar-item" rel="author" href="{{ " /" }}"><img src="{{site.url}}/assets/images/logo.png" width="38" height="28" style="margin-right:8px;" /> {{site.title | escape}} </a>
+            <a class="navbar-item" rel="author" href="{{ " /" }}"> {{site.title | escape}} </a>
 
             <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false"
                 data-target="navbarBasicExample">

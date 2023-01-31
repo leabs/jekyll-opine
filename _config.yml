@@ -1,9 +1,13 @@
 # Site config
-title: Site Title
+title: Jekyll Opine
 description: >- # this means to ignore newlines until "baseurl:"
-  Site description here!
+  A simple, clean, responsive Jekyll theme for a blog or personal website with built in search, commenting, pagination and more.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
+
+# Author info
+author-name: Bob
+author-avatar: avatar.png
 
 # Social
 github-username: leabs
@@ -17,11 +21,6 @@ paginate_path: "/blog/page:num/"
 
 # Pagination (Posts shown before page 2)
 paginate: 8
-
-# Author info
-author: Bob
-# Have a website? It will link in the footer
-homepage:
 
 # Syntax highlighting
 markdown: kramdown
@@ -46,6 +45,5 @@ twitter:
   card: summary
 
 # disqus comments
-
 disqus:
   shortname:
