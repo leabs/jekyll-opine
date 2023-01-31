@@ -2,11 +2,7 @@
 
 ![Jekyll Opine theme screenshot](/screenshots/theme.png)
 
-A simple, clean, responsive Jekyll theme for a blog or personal website with built in search, commenting, and more. See the [demo](https://leabs.github.io/jekyll-leabs-theme/) for a live look around.
-
-[![Watch the video](https://youtu.be/4NWQb9d2yVg/hqdefault.
-jpg)]
-(https://youtu.be/4NWQb9d2yVg)  
+A simple, clean, responsive Jekyll theme for a blog or personal website with built in search, commenting, and more. See the [demo](https://leabs.github.io/jekyll-leabs-theme/) for a live look around or check out the [video walkthrough](https://www.youtube.com/watch?v=4NWQb9d2yVg).
 
 ## Installation
 
