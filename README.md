@@ -1,5 +1,7 @@
 # Jekyll Opine Theme
 
+![Jekyll Opine theme screenshot](/screenshots/theme.png)
+
 A simple, clean, responsive Jekyll theme for a blog or personal website with built in search, commenting, and more. See the [demo](https://leabs.github.io/jekyll-leabs-theme/) for a live look around.
 
 ## Installation
@@ -7,9 +9,7 @@ A simple, clean, responsive Jekyll theme for a blog or personal website with bui
 1. Fork the repository
 2. Edit `_config.yml` to personalize your site.
 3. Replace `favicon.ico` with your own.
-4. Replace `assets/img/avatar.png` with your own.
-5. Replace `assets/img/logo.png` with your own.
-6. Replace `assets/img/cover.jpg` with your own.
+4. Replace `assets/images/avatar.png` with your own.
 
 ## Adding Posts
 
