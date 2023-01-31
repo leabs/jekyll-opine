@@ -3,7 +3,7 @@ title: Jekyll Opine
 description: >- # this means to ignore newlines until "baseurl:"
   A simple, clean, responsive Jekyll theme for a blog or personal website with built in search, commenting, pagination and more.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://jekyll-opine.vercel.app/" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Author info
 author-name: Bob
