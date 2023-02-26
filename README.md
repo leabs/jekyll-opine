@@ -2,11 +2,19 @@
 
 ![Jekyll Opine theme screenshot](/screenshots/theme.png)
 
-A simple, clean, responsive Jekyll theme for a blog or personal website with built in search, commenting, and more. See the [demo](https://leabs.github.io/jekyll-leabs-theme/) for a live look around or check out the [video walkthrough](https://www.youtube.com/watch?v=4NWQb9d2yVg).
+A simple, clean, responsive Jekyll theme for a blog or personal website with built in search, commenting, and more. See the [demo](https://jekyll-opine.vercel.app) for a live look around or check out the [video walkthrough](https://www.youtube.com/watch?v=4NWQb9d2yVg).
 
-## Installation
+## Requirements
 
-1. Fork the repository
+To build and run this site locally, you will need
+
+- [Ruby](https://www.ruby-lang.org/en/)
+- [Bundler](https://bundler.io/)
+- [Jekyll](https://jekyllrb.com/)
+
+## Build and Run Locally
+
+1. Download, clone, or fork the repository
 2. Edit `_config.yml` to personalize your site.
 3. Replace `favicon.ico` with your own.
 4. Replace `assets/images/avatar.png` with your own.
